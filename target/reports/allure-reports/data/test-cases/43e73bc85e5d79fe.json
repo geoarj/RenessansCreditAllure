@@ -1,0 +1,270 @@
+{
+  "uid" : "43e73bc85e5d79fe",
+  "name" : "depositRenCredit2",
+  "fullName" : "tests.AllureTest.depositRenCredit2",
+  "historyId" : "6c7e2dfcadb9df6f7644895c8565ca0d",
+  "time" : {
+    "start" : 1609113329014,
+    "stop" : 1609113338772,
+    "duration" : 9758
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выбрать меню вклады",
+      "time" : {
+        "start" : 1609113333673,
+        "stop" : 1609113335552,
+        "duration" : 1879
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить переход на страницу Вклады",
+      "time" : {
+        "start" : 1609113335552,
+        "stop" : 1609113335614,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать валюту 'Доллары США'",
+      "time" : {
+        "start" : 1609113335614,
+        "stop" : 1609113335790,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "currency",
+        "value" : "Доллары США"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "заполнение полей 'Сумма вклада' значениями '500000'",
+      "time" : {
+        "start" : 1609113335791,
+        "stop" : 1609113336611,
+        "duration" : 820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldName",
+        "value" : "Сумма вклада"
+      }, {
+        "name" : "value",
+        "value" : "500000"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать срок вклада",
+      "time" : {
+        "start" : 1609113336612,
+        "stop" : 1609113336750,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "12 месяцев"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "заполнение полей 'Ежемесячное пополнение' значениями '30000'",
+      "time" : {
+        "start" : 1609113336750,
+        "stop" : 1609113337000,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldName",
+        "value" : "Ежемесячное пополнение"
+      }, {
+        "name" : "value",
+        "value" : "30000"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Отметить значения полей которые нам нужны",
+      "time" : {
+        "start" : 1609113337000,
+        "stop" : 1609113337180,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldName",
+        "value" : "Ежемесячная капитализация"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить значение полей на ожидаемый результат",
+      "time" : {
+        "start" : 1609113337181,
+        "stop" : 1609113337717,
+        "duration" : 536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "checkField",
+        "value" : "Начислено %"
+      }, {
+        "name" : "value",
+        "value" : "1003.59"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить значение полей на ожидаемый результат",
+      "time" : {
+        "start" : 1609113337718,
+        "stop" : 1609113338246,
+        "duration" : 528
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "checkField",
+        "value" : "Пополнение"
+      }, {
+        "name" : "value",
+        "value" : "330000.0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить значение полей на ожидаемый результат",
+      "time" : {
+        "start" : 1609113338246,
+        "stop" : 1609113338772,
+        "duration" : 526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "checkField",
+        "value" : "К снятию"
+      }, {
+        "name" : "value",
+        "value" : "831003.59"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AllureTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "depositRenCredit2"
+  }, {
+    "name" : "suite",
+    "value" : "tests.AllureTest"
+  }, {
+    "name" : "host",
+    "value" : "Georgys-Air.fritz.box"
+  }, {
+    "name" : "thread",
+    "value" : "57847@Georgys-Air.fritz.box.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Тест Ренесcанc Вклады"
+  }, {
+    "name" : "feature",
+    "value" : "Тест вклада в долларах"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a14c905612574155",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=87.0.4280.88)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Georgys-Air.fritz.box', ip: 'fe80:0:0:0:18fc:9029:5380:3d4a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '15.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/2j/dn3pnnyd6g7...}, goog:chromeOptions: {debuggerAddress: localhost:50173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 623f7a065710007b26d0a48c032ccfe4\n*** Element info: {Using=xpath, value=//span[text() = 'Ежемесячная капитализация']/../..//div[@class = 'jq-checkbox calculator__check']}",
+      "time" : {
+        "start" : 1609109066162,
+        "stop" : 1609109086384,
+        "duration" : 20222
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43e73bc85e5d79fe.json",
+  "parameterValues" : [ ]
+}

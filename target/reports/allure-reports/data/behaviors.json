@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Тест Ренесcанc Вклады",
+    "children" : [ {
+      "name" : "Тест вклада в рублях",
+      "children" : [ {
+        "name" : "depositRenCredit1",
+        "uid" : "91b3fd782ea99f8f",
+        "parentUid" : "fc5a9f0762237f9d127b8af449d5e651",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609113318487,
+          "stop" : 1609113328881,
+          "duration" : 10394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc5a9f0762237f9d127b8af449d5e651"
+    }, {
+      "name" : "Тест вклада в долларах",
+      "children" : [ {
+        "name" : "depositRenCredit2",
+        "uid" : "43e73bc85e5d79fe",
+        "parentUid" : "b37ba668f08fb5694058a6b1e6f2746e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609113329014,
+          "stop" : 1609113338772,
+          "duration" : 9758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b37ba668f08fb5694058a6b1e6f2746e"
+    } ],
+    "uid" : "5b331916957cfb8e5bcd6b0f1c09fa86"
+  } ]
+}

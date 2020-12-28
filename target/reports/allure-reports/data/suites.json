@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.AllureTest",
+    "children" : [ {
+      "name" : "depositRenCredit1",
+      "uid" : "91b3fd782ea99f8f",
+      "parentUid" : "d8601f4e1a92f0d0ed6f10c1517bccce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609113318487,
+        "stop" : 1609113328881,
+        "duration" : 10394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "depositRenCredit2",
+      "uid" : "43e73bc85e5d79fe",
+      "parentUid" : "d8601f4e1a92f0d0ed6f10c1517bccce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609113329014,
+        "stop" : 1609113338772,
+        "duration" : 9758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d8601f4e1a92f0d0ed6f10c1517bccce"
+  } ]
+}
